@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "/data/home/jchase/src/github.com/jechase/antlr4/demo"
+		},
+		{
+			"path": "/data/home/jchase/src/github.com/jechase/antlr4/runtime"
+		},
+		{
+			"path": "/data/home/jchase/src/github.com/jechase/antlr4/tool"
+		},
+		{
+			"path": "."
+		}
+	]
+}

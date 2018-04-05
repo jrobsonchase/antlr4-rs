@@ -1,6 +1,0 @@
-[package]
-name = "antlr4"
-version = "0.1.0"
-authors = ["Josh Chase <josh@jec.pw>"]
-
-[dependencies]

@@ -1,0 +1,17 @@
+[package]
+name = "antlr4-runtime"
+version = "0.1.0"
+authors = ["Josh Chase <josh@jec.pw>"]
+workspace = "../workspace"
+
+# antlr for some reason puts its output in its own build directory.
+exclude = ["./antlr4-upstream/runtime/Cpp/**/*", "./antlr4-upstream/runtime/Cpp"]
+
+[dependencies]
+
+[build-dependencies]
+cmake = "0.1.29"
+
+[features]
+link_static = []
+default = ["link_static"]
